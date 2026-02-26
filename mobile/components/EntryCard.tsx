@@ -1,7 +1,7 @@
 import { JournalEntry } from "@/services/journalService";
 import { formatDate } from "@/utils/format";
 import { useEffect } from "react";
-import { BackHandler, StyleSheet, Text } from "react-native";
+import { BackHandler, StyleSheet, Text, View } from "react-native";
 import { Pressable, ScrollView } from "react-native-gesture-handler";
 import {
   colors,
@@ -31,7 +31,9 @@ export default function EntryCard({ entry, onDismiss }: EntryCardProps) {
             <Text style={styles.date}>{formatDate(entry.createdUtc)}</Text>
             <Text style={styles.content}>{entry.content}</Text>
           </ScrollView>
-          <CircleButton icon="x" onPress={onDismiss} variant="ghost" />
+          <View style={styles.buttonContainer}>
+            <CircleButton icon="x" onPress={onDismiss} />
+          </View>
         </Pressable>
       </Pressable>
     </Pressable>
@@ -79,14 +81,8 @@ const styles = StyleSheet.create({
     lineHeight: lineHeight.body,
     color: ink(opacity.full),
   },
-  closeButton: {
-    alignSelf: "flex-end",
-    marginTop: spacing.md,
-  },
-  closeButtonText: {
-    fontFamily: fonts.sans,
-    fontSize: fontSize.body,
-    lineHeight: lineHeight.body,
-    color: ink(opacity.light),
+  buttonContainer: {
+    alignItems: "flex-end",
+    paddingTop: spacing.md,
   },
 });
