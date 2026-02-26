@@ -139,7 +139,7 @@ export default function Journal() {
                 style={styles.drawerTab}
                 onPress={() => setDrawerVisible(true)}
               >
-                <Text style={styles.drawerTabText}>Inkblot</Text>
+                <Text style={styles.drawerTabText}>Crane</Text>
                 <Feather
                   name="chevron-down"
                   size={14}

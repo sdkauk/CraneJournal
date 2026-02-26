@@ -8,7 +8,14 @@ import {
   spacing,
 } from "@/constants/theme";
 import { useAuth } from "@/hooks/useAuth";
-import { Pressable, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import {
+  Image,
+  Pressable,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 
 export default function Login() {
   const { login, signup } = useAuth();
@@ -16,8 +23,12 @@ export default function Login() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.hero}>
-        <Text style={styles.title}>Inkblot</Text>
-        <Text style={styles.subtitle}>A place to think.</Text>
+        <Image
+          source={require("../assets/images/adaptive-icon.png")}
+          style={styles.icon}
+        />
+        <Text style={styles.title}>CRANE</Text>
+        <Text style={styles.subtitle}>a place to think</Text>
       </View>
 
       <View style={styles.bottom}>
@@ -31,7 +42,7 @@ export default function Login() {
         </View>
 
         <Pressable style={styles.offlineLink} onPress={() => {}}>
-          <Text style={styles.offlineLinkText}>Continue offline</Text>
+          <Text style={styles.offlineLinkText}></Text>
         </Pressable>
       </View>
     </SafeAreaView>
@@ -104,5 +115,10 @@ const styles = StyleSheet.create({
     fontSize: fontSize.label,
     lineHeight: lineHeight.label,
     color: ink(opacity.light),
+  },
+  icon: {
+    width: 80,
+    height: 80,
+    marginBottom: spacing.md,
   },
 });
