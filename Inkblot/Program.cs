@@ -39,16 +39,16 @@ app.UseAuthorization();
 app.MapControllers();
 
 var contactEmail = builder.Configuration["ContactEmail"];
-app.MapGet("/privacy", () => Results.Content("""
+app.MapGet("/privacy", () => Results.Content($"""
 <!DOCTYPE html>
 <html>
-<head><title>Inkblot - Privacy Policy</title></head>
+<head><title>Crane: Private Journal, Diary - Privacy Policy</title></head>
 <body style="font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px;">
 <h1>Privacy Policy</h1>
 <p><strong>Last updated:</strong> February 25, 2026</p>
 
 <h2>What We Collect</h2>
-<p>When you sign up for Inkblot, we collect your email address through Auth0 for authentication purposes. We also store the journal entries you create.</p>
+<p>When you sign up for Crane, we collect your email address through Auth0 for authentication purposes. We also store the journal entries you create.</p>
 
 <h2>How We Use Your Data</h2>
 <p>Your email is used solely for authentication. Your journal entries are stored securely on our servers so you can access them from your device.</p>
