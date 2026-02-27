@@ -110,7 +110,10 @@ export default function Journal() {
 
   const swipeDown = Gesture.Fling()
     .direction(Directions.DOWN)
-    .onEnd(() => setDrawerVisible(true))
+    .onEnd(() => {
+      Keyboard.dismiss();
+      setDrawerVisible(true);
+    })
     .runOnJS(true);
 
   const tap = Gesture.Tap()
@@ -137,7 +140,10 @@ export default function Journal() {
             center={
               <Pressable
                 style={styles.drawerTab}
-                onPress={() => setDrawerVisible(true)}
+                onPress={() => {
+                  Keyboard.dismiss();
+                  setDrawerVisible(true);
+                }}
               >
                 <Text style={styles.drawerTabText}>Crane</Text>
                 <Feather
