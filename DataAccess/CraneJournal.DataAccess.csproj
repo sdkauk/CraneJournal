@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common\Inkblot.Common.csproj" />
+    <ProjectReference Include="..\Common\CraneJournal.Common.csproj" />
   </ItemGroup>
 
 </Project>

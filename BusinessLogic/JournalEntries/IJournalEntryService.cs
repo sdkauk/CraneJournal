@@ -1,7 +1,7 @@
-﻿using Inkblot.BusinessLogic.JournalEntries.Requests;
-using Inkblot.Common.Models;
+﻿using CraneJournal.BusinessLogic.JournalEntries.Requests;
+using CraneJournal.Common.Models;
 
-namespace Inkblot.BusinessLogic.JournalEntries
+namespace CraneJournal.BusinessLogic.JournalEntries
 {
     public interface IJournalEntryService
     {

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "inkblot",
+    "name": "cranejournal",
     "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,10 +10,10 @@
     "icon": "./assets/images/icon.png",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.inkblot.app"
+      "bundleIdentifier": "com.cranejournal.app"
     },
     "android": {
-      "package": "com.inkblot.app",
+      "package": "com.cranejournal.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#E6F4FE"

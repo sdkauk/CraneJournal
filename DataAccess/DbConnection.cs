@@ -1,9 +1,9 @@
 ﻿using MongoDB.Driver;
-using Inkblot.Common.Models;
-using Inkblot.DataAccess;
+using CraneJournal.Common.Models;
+using CraneJournal.DataAccess;
 using Microsoft.Extensions.Configuration;
 
-namespace Inkblot.DataAccess
+namespace CraneJournal.DataAccess
 {
     public class DbConnection : IDbConnection
     {

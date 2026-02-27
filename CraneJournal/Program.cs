@@ -1,5 +1,5 @@
-using Inkblot.API;
-using Inkblot.DataAccess.DataSeeder;
+using CraneJournal.API;
+using CraneJournal.DataAccess.DataSeeder;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);

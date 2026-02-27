@@ -19,9 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic\Inkblot.BusinessLogic.csproj" />
-    <ProjectReference Include="..\Common\Inkblot.Common.csproj" />
-    <ProjectReference Include="..\DataAccess\Inkblot.DataAccess.csproj" />
+    <ProjectReference Include="..\BusinessLogic\CraneJournal.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Common\CraneJournal.Common.csproj" />
+    <ProjectReference Include="..\DataAccess\CraneJournal.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

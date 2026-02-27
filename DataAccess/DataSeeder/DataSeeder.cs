@@ -1,4 +1,4 @@
-﻿namespace Inkblot.DataAccess.DataSeeder
+﻿namespace CraneJournal.DataAccess.DataSeeder
 {
     public class DataSeeder
     {

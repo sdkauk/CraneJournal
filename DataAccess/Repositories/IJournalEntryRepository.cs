@@ -1,6 +1,6 @@
-﻿using Inkblot.Common.Models;
+﻿using CraneJournal.Common.Models;
 
-namespace Inkblot.DataAccess.Repositories
+namespace CraneJournal.DataAccess.Repositories
 {
     public interface IJournalEntryRepository
     {

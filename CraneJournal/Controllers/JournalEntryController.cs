@@ -1,9 +1,9 @@
-﻿using Inkblot.BusinessLogic.JournalEntries;
-using Inkblot.BusinessLogic.JournalEntries.Requests;
-using Inkblot.Common.Models;
+﻿using CraneJournal.BusinessLogic.JournalEntries;
+using CraneJournal.BusinessLogic.JournalEntries.Requests;
+using CraneJournal.Common.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Inkblot.API.Controllers
+namespace CraneJournal.API.Controllers
 {
     [Route("[controller]")]
     public class JournalEntryController : BaseController
