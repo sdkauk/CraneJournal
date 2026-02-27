@@ -2,8 +2,9 @@ import { useAuth } from "@/hooks/useAuth";
 import { journalService } from "@/services/journalService";
 import { Feather } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
+  BackHandler,
   Keyboard,
   Pressable,
   StyleSheet,
@@ -52,6 +53,17 @@ export default function Journal() {
   const saveOpacity = useSharedValue(1);
   const [saveError, setSaveError] = useState(false);
   const [refreshKey, setRefreshKey] = useState(0);
+
+  useEffect(() => {
+    const handler = BackHandler.addEventListener("hardwareBackPress", () => {
+      if (drawerVisible) {
+        setDrawerVisible(false);
+        return true;
+      }
+      return false;
+    });
+    return () => handler.remove();
+  }, [drawerVisible]);
 
   const textAnimatedStyle = useAnimatedStyle(() => ({
     transform: [{ translateY: saveTranslateY.value }],
@@ -152,13 +164,6 @@ export default function Journal() {
                   color={ink(opacity.medium)}
                 />
               </Pressable>
-            }
-            right={
-              <CircleButton
-                icon="more-horizontal"
-                variant="ghost"
-                onPress={() => {}}
-              />
             }
           />
         </View>
