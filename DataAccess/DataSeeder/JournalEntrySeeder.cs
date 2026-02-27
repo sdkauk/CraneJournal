@@ -1,5 +1,5 @@
-﻿using Inkblot.Common.Models;
-using Inkblot.DataAccess.Repositories;
+﻿using CraneJournal.Common.Models;
+using CraneJournal.DataAccess.Repositories;
 
 public class JournalEntrySeeder
 {

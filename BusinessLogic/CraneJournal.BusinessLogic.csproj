@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\Inkblot.DataAccess.csproj" />
+    <ProjectReference Include="..\DataAccess\CraneJournal.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

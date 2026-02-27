@@ -1,9 +1,9 @@
-﻿using Inkblot.BusinessLogic.JournalEntries;
-using Inkblot.DataAccess;
-using Inkblot.DataAccess.DataSeeder;
-using Inkblot.DataAccess.Repositories;
+﻿using CraneJournal.BusinessLogic.JournalEntries;
+using CraneJournal.DataAccess;
+using CraneJournal.DataAccess.DataSeeder;
+using CraneJournal.DataAccess.Repositories;
 
-namespace Inkblot.API
+namespace CraneJournal.API
 {
     public static class RegisterServices
     {

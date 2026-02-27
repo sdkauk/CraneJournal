@@ -1,7 +1,7 @@
 ﻿using MongoDB.Driver;
-using Inkblot.Common.Models;
+using CraneJournal.Common.Models;
 
-namespace Inkblot.DataAccess
+namespace CraneJournal.DataAccess
 {
     public interface IDbConnection
     {

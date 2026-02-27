@@ -1,8 +1,8 @@
 ﻿
-using Inkblot.Common.Models;
+using CraneJournal.Common.Models;
 using MongoDB.Driver;
 
-namespace Inkblot.DataAccess.Repositories
+namespace CraneJournal.DataAccess.Repositories
 {
     public class JournalEntryRepository : IJournalEntryRepository
     {

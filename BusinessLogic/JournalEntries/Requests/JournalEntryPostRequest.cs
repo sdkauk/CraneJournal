@@ -1,5 +1,5 @@
 ﻿
-namespace Inkblot.BusinessLogic.JournalEntries.Requests
+namespace CraneJournal.BusinessLogic.JournalEntries.Requests
 {
     public class JournalEntryPostRequest
     {

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inkblot.API", "Inkblot\Inkblot.API.csproj", "{D01404AD-59E3-4F37-AA50-1CA146E43B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CraneJournal.API", "CraneJournal\CraneJournal.API.csproj", "{D01404AD-59E3-4F37-AA50-1CA146E43B97}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inkblot.DataAccess", "DataAccess\Inkblot.DataAccess.csproj", "{D0A79005-1670-4339-84B5-8148E92C26AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CraneJournal.DataAccess", "DataAccess\CraneJournal.DataAccess.csproj", "{D0A79005-1670-4339-84B5-8148E92C26AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inkblot.Common", "Common\Inkblot.Common.csproj", "{0D2AF55F-B301-4332-A003-C2414707FEF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CraneJournal.Common", "Common\CraneJournal.Common.csproj", "{0D2AF55F-B301-4332-A003-C2414707FEF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inkblot.BusinessLogic", "BusinessLogic\Inkblot.BusinessLogic.csproj", "{93C08F35-8D69-4FFB-BD89-5073ADAF12EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraneJournal.BusinessLogic", "BusinessLogic\CraneJournal.BusinessLogic.csproj", "{93C08F35-8D69-4FFB-BD89-5073ADAF12EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
