@@ -24,7 +24,7 @@ export default function Login() {
     <SafeAreaView style={styles.container}>
       <View style={styles.hero}>
         <Image
-          source={require("../assets/images/adaptive-icon.png")}
+          source={require("../assets/images/transparent-icon.png")}
           style={styles.icon}
         />
         <Text style={styles.title}>CRANE</Text>
