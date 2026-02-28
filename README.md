@@ -68,7 +68,3 @@ EXPO_PUBLIC_AUTH0_DOMAIN=<your-auth0-domain>
 EXPO_PUBLIC_AUTH0_CLIENT_ID=<your-auth0-client-id>
 EXPO_PUBLIC_AUTH0_AUDIENCE=<your-auth0-audience>
 EXPO_PUBLIC_API_BASE_URL=http://localhost:5085
-```
-- **`constants/theme.ts`** — all text colors come from a single `ink(opacity)` function instead of scattered hex values
-- **`app/_layout.tsx`** — auth gating uses Expo Router's `Stack.Protected` to avoid flashing the wrong screen
-- **`BusinessLogic/` + `DataAccess/`** — clean architecture on the .NET side, properly separated with interfaces throughout
