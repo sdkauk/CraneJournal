@@ -44,15 +44,6 @@
         {
           "domain": "dev-02mdr16euq2kc8xv.us.auth0.com"
         }
-      ],
-      [
-        //TODO:REMOVE FOR NON-DEV BUILDS
-        "expo-build-properties",
-        {
-          "android": {
-            "usesCleartextTraffic": true
-          }
-        }
       ]
     ],
     "experiments": {
