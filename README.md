@@ -1,8 +1,6 @@
 # Crane
 
-A simple journaling app. You can pull up a drawer to read old entries.
-
-The interesting part isn't the app — it's the stack underneath it.
+A simple journaling app.
 
 <!-- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.cranejournal.app) -->
 
